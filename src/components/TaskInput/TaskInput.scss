@@ -1,0 +1,24 @@
+.task-input {
+    display: flex;
+    margin-top: 20px;
+
+    &__field {
+        flex-grow: 1;
+        padding: 10px;
+        border-radius: 4px 0 0 4px;
+        border: 1px solid #ccc;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        border: none;
+        background-color: #007bff;
+        color: white;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+
+        &:hover {
+            background-color: darken(#007bff, 5%);
+        }
+    }
+}

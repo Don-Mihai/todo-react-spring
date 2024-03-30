@@ -1,0 +1,16 @@
+.task-list {
+    flex-grow: 1;
+    overflow-y: auto;
+
+    &__item {
+        background-color: #eaeaea;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 4px;
+        cursor: pointer;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+}

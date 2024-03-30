@@ -1,0 +1,19 @@
+.task-detail {
+    width: 300px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    height: 100vh;
+    overflow-y: auto;
+
+    &__title {
+        margin-top: 0;
+    }
+
+    &__description {
+        white-space: pre-wrap;
+    }
+
+    &__message {
+        color: #666;
+    }
+}

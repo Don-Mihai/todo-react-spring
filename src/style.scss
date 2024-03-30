@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.post {
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.post:hover {
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+.post__title {
+    margin: 0 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 24px;
+    color: #333;
+}
+
+.post__content {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #555;
+}
