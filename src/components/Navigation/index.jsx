@@ -1,12 +1,15 @@
 import React from 'react';
 import './Navigation.scss';
+import { Link } from 'react-router-dom';
 
 function Navigation() {
     return (
         <nav className="navigation">
             <ul className="navigation__list">
                 <li className="navigation__item">Главная</li>
-                <li className="navigation__item">О приложении</li>
+                <Link to="/about" className="navigation__item">
+                    О приложении
+                </Link>
             </ul>
         </nav>
     );

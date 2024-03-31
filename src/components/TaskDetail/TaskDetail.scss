@@ -4,16 +4,31 @@
     background-color: #f2f2f2;
     height: 100vh;
     overflow-y: auto;
+}
 
-    &__title {
-        margin-top: 0;
-    }
+.task-detail__title,
+.task-detail__description {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: vertical;
+}
 
-    &__description {
-        white-space: pre-wrap;
-    }
+.task-detail__title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
 
-    &__message {
-        color: #666;
-    }
+.task-detail__description {
+    font-size: 16px;
+    min-height: 100px;
+}
+
+.task-detail__message {
+    text-align: center;
+    font-size: 18px;
+    color: #666;
 }
